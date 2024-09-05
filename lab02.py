@@ -49,7 +49,7 @@ quotient of height and 2: {height/2}
 The remainder of age divided by 3: {age%3}
 age raised to the power of 2: {age**2}""")
 
-	print("\nPART FOUR: TEMPERATURE CONVERSION:\n")
+print("\nPART FOUR: TEMPERATURE CONVERSION:\n")
 
 #Converting temperatures
 temp = "NaN"
@@ -62,4 +62,4 @@ while type(temp) == str:
 celsius = (temp - 32) * 5/9
 if temp == 451:
 	print("It was a pleasure to burn. It was a special pleasure to see things eaten, to see things blackened and changed.\n")
-print(f"Temperature in celsius: {celsius}\N{DEGREE SIGN}")
+print(f"Temperature in celsius: {celsius} \N{DEGREE SIGN}")
